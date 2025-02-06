@@ -1,6 +1,8 @@
 
 export default function Cart(props) {
 
+    console.log(props);
+
    
     let {image, name, description}=props
 

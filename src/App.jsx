@@ -15,9 +15,13 @@ function App() {
   return (
     <>
     <div className='flex justify-evenly items-center pt-5 '>
-   <Cart {...products[0]} />
-   <Cart {...products[1]} />
-   <Cart {...products[2]} />
+   <Cart {...products[0]} >
+
+    <h2 className='text-xl font-bold text-red-500'>30% Off</h2>
+
+   </Cart>
+   <Cart {...products[1]} ></Cart>
+   <Cart {...products[2]} ></Cart>
       
 
     </div>

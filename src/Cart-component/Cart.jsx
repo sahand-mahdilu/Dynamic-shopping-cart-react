@@ -1,5 +1,5 @@
 
-export default function Cart({image="./public/img/no-img.png", name, description}) {
+export default function Cart({image="./public/img/no-img.png", name, description,children}) {
 
 
    
@@ -19,7 +19,10 @@ export default function Cart({image="./public/img/no-img.png", name, description
                <p className="pt-5 text-center">{description}</p>
                </div>
 
+               {children}
+
                 <button className="bg-blue-600 text-white p-2 w-full mt-8 hover:bg-blue-400" >Add to Cart</button>
+               
 
 
 

@@ -1,10 +1,8 @@
 
-export default function Cart(props) {
+export default function Cart({image, name, description}) {
 
-    console.log(props);
 
    
-    let {image, name, description}=props
 
   return (
     <div className="Cart_container max-w-56 bg-gray-200 rounded-xl ">

@@ -1,5 +1,5 @@
 
-export default function Cart({image, name, description}) {
+export default function Cart({image="./public/img/no-img.png", name, description}) {
 
 
    
